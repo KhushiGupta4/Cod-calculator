@@ -1,0 +1,41 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #f8ebeb;
+    background-color: #88676757;
+    padding: 10px;
+}
+
+.display {
+    width: 93%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    background-color: #7bfc3a;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.buttons button {
+    width: 32%;
+    height: 50px;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+/* Your existing CSS styles */
+
+.operator.exponential {
+    /* Styling for the exponential button */
+  }
+  
